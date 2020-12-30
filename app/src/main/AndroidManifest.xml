@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.App1_1">
+        <activity android:name=".schPer"></activity>
+        <activity android:name=".schForum" />
+        <activity android:name=".schLife" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
