@@ -4,30 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context=".schLife">
 
-    <Button
-        android:id="@+id/schLife"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_gravity="bottom"
-        android:text="校园动态"/>
-    <Button
-        android:id="@+id/schForum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_gravity="bottom"
-        android:text="校园论坛"/>
-    <Button
-        android:id="@+id/schPer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_gravity="bottom"
-        android:text="个人主页"/>
 
+    <TextView
+        android:id="@+id/tv_schLife"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="校园动态"
+        android:textSize="25sp" />
+
+    <include layout="@layout/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"/>
 
 </LinearLayout>
